@@ -1,0 +1,49 @@
+# ==================================================
+# LaTeX build artifacts
+# ==================================================
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.toc
+*.lof
+*.lot
+*.synctex.gz
+
+# ==================================================
+# Intermediate / temporary files
+# ==================================================
+*.nav
+*.snm
+*.vrb
+*.xdv
+
+# ==================================================
+# Editor / OS junk
+# ==================================================
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# ==================================================
+# Latexmk
+# ==================================================
+latexmk/
+
+# ==================================================
+# PDFs (choose ONE policy)
+# ==================================================
+
+# Option A: ignore all compiled PDFs (recommended)
+*.pdf
+
+# Option B: track final PDFs (comment Option A if you prefer)
+# !main.pdf

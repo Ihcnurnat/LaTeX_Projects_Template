@@ -1,0 +1,70 @@
+\documentclass{book}
+
+% ==================================================
+% Language + fonts
+% ==================================================
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{lmodern}
+
+% ==================================================
+% Math packages
+% ==================================================
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{mathrsfs}
+\usepackage{mathabx}
+
+% ==================================================
+% Utilities
+% ==================================================
+\usepackage{import}
+\usepackage{hyperref}
+\usepackage{comment}
+\usepackage{csquotes}
+\usepackage{float}
+
+% ==================================================
+% Bibliography
+% ==================================================
+\usepackage[backend=biber,style=alphabetic]{biblatex}
+\addbibresource{bib/references.bib}
+
+% ==================================================
+% Custom styles
+% ==================================================
+\usepackage{styles/MyCommands}
+\usepackage{styles/quiver}
+
+% ==================================================
+% Document metadata
+% ==================================================
+\title{MATH-410: Riemann Surfaces}
+\author{Runchi Tan}
+\date{Autumn 2025}
+
+\begin{document}
+
+\maketitle
+
+% ==================================================
+% Content files
+% ==================================================
+
+% Add or remove files here freely
+%\subimport{tex/}{week-01.tex}
+%\subimport{tex/}{week-02.tex}
+% \subimport{tex/}{week-03.tex}
+% \subimport{tex/}{week-04.tex}
+% ...
+%\subimport{tex/}{week-12.tex}
+
+% ==================================================
+% Bibliography
+% ==================================================
+
+\printbibliography
+
+\end{document}
